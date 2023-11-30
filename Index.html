@@ -1,0 +1,1035 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <meta name="robots" content="index, follow" />
+
+        <meta charset="utf-8">
+						
+            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+
+            <title>Empresa | informacion.</title>
+
+            <!-- core CSS -->
+
+            <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+            <link href="css/font-awesome.min.css" rel="stylesheet"/>
+
+            <link href="css/animate.min.css" rel="stylesheet"/>
+
+            <link href="css/owl.carousel.css" rel="stylesheet"/>
+
+            <link href="css/owl.transitions.css" rel="stylesheet"/>
+
+            <link href="css/prettyPhoto.css" rel="stylesheet"/>
+
+            <link href="css/slick.css" media="screen" rel="stylesheet" type="text/css" />
+
+            <link href="css/main.css" rel="stylesheet"/>
+
+            <!--<link href="css/login.css" rel="stylesheet"/>-->
+
+
+
+            <link rel="stylesheet" type="text/css" href="css/slider.css" />
+
+            <!--[if lt IE 9]>
+
+            <script src="js/html5shiv.js"></script>
+
+            <script src="js/respond.min.js"></script>
+
+            <![endif]-->       
+
+            <!--<link rel="shortcut icon" href="images/ico/favicon.ico">
+
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+
+            <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">-->
+
+
+
+
+
+            <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+
+            <noscript>
+
+                <link rel="stylesheet" type="text/css" href="css/nojs.css" />
+
+            </noscript>
+
+    </head><!--/head-->
+
+
+
+    <body id="home" class="homepage">
+
+
+
+        <header id="header">
+
+            <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner" >
+
+                <div class="container">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                            <span class="sr-only">Toggle navigation</span>
+
+                            <span class="icon-bar"></span>
+
+                            <span class="icon-bar"></span>
+
+                            <span class="icon-bar"></span>
+
+                        </button>
+
+                        <a class="navbar-brand" href="index.php">
+
+                            <img src="images/logo.jpg" class="logo">                        
+
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="collapse navbar-collapse navbar-right">
+
+                        <div class="row">
+
+                          <!--  <p class="datos"><i>soporte</i><b>(229)934.45.35    &nbsp;&nbsp;&nbsp;(229)166.97.05&nbsp;&nbsp;&nbsp;(229)158.66.42&nbsp;&nbsp;&nbsp;(229)165.05.99</b><span></span><a href="mailto:prosigorecepcion@hotmail.com">prosigorecepcion@hotmail.com</a></p>  -->
+
+
+                        </div>
+
+                        <nav>
+
+                            <ul class="nav navbar-nav">
+
+                            <!--    <li class="scroll active"><a href="#home">Inicio</a></li> -->
+                            <li class="scroll"><a href="#home">Inicio</a></li>
+
+                                <li class="scroll"><a href="#about">Nosotros</a></li>
+
+                                <li class="scroll"><a href="#features">Servicios</a></li>                        
+
+                                <li class="scroll"><a href="#portfolio">Amenidades</a></li>                                                                       
+
+                                <li class="scroll"><a href="#get-in-touch">Contacto</a></li>
+								
+								<li class="scroll"><a href="#privacy">Aviso de Privacidad</a></li>
+
+                                <li class="scroll"><a href="#" data-toggle="modal" data-target="#login">Ingresar</a></li>      
+
+                            </ul>
+
+                        </nav>
+
+                    </div>
+
+                </div><!--/.container-->
+
+            </nav><!--/nav-->
+
+        </header><!--/header-->
+
+
+
+        <div class="modal fade" id="login" role="dialog">
+
+            <!--<div class="modal-dialog ">-->
+
+                <div class="modal-dialog modal-sm">
+
+
+
+                <!-- Modal content-->
+
+                <div class="modal-content">
+
+                    <div class="modal-header" style="background: #36be64; ">
+
+                        <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+
+                        <img data-dismiss="modal" src="images/logo.png" class="logo"/>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                            <form method="post" action="funciones/bd/consultas/Ingresar_Usuario.php">
+
+                                <div class="form-group">
+
+                                    <input type="text" name="rfc" class="form-control" placeholder="RFC"  maxlength="13" pattern="[A-Z0-9]{10,13}" required>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <input type="password" name="contrasenia" class="form-control" pattern="^(?=.*[a-zA-Z])(?=.*\d)([A-Za-z\d]){8,15}$" placeholder="Contraseña" required>
+
+                                </div>
+
+                                <div class="form-group" align="center">
+
+                                    <p>Si no tienes tu contraseña solicitala hoy mismo.</p>
+
+                                </div>
+
+                                <div align="center">
+
+                                    <button type="submit" class="btn btn-primary btn-lg wow bounceIn"  data-wow-duration="400ms" data-wow-delay="400ms">Ingresar</button>
+
+                                </div>
+
+                            </form>
+
+                    </div>
+
+                    <div class="modal-footer" style="background: black;">
+
+                        <div style="color: white; text-align: left;">
+
+                        COLONOS LAS PALMAS DE MEDELLIN | Informacion adicional <span>Copyright © YYYY Todos los derechos reservados.</span>
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <section id="main-slider">
+
+
+
+            <div id="da-slider" class="da-slider">
+
+                <div class="da-slide">
+
+                    <h2>Fraccionamiento<br/><b>Las palmas <span>&reg;</span></b></h2>
+
+                    <p><br>Bienvenido al fraccionamiento las palmas. Un excelente lugar para tu familia gracias a su seguridad constante seguridad. 
+                        Ademas de ofrecer areas recreativas, parques y espacios deportivos para la comodidad y disfrute de toda la familia. 
+                    </p>                
+
+                    <div class="da-img"><img src="images/img_temp.png" alt="producto" /></div>
+
+                </div>
+
+                <div class="da-slide">
+
+                    <h2>Amenidades:<br/><b>SEGURIDAD <span>&reg;</span></b></h2>
+					<p>
+                    <br>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios
+                    como el control de acceso al fraccionamiento, video-vigilancia y presencia constante del personal de seguridad con el proposito
+                    de garantizar el bienestar y seguridad de tu familia.
+                    </p>
+                    <div class="da-img"><img src="images/img_temp.png" alt="producto" /></div>
+
+                </div>
+				
+				<div class="da-slide">
+
+                    <h2>Amenidades:<br/><b>Zonas recreativas<span>&reg;</span></b></h2>
+
+                    <p><br>Ofrecemos una amplia variedad de comodidades para todos nuestros colonos, que incluye zonas recreativas como
+                        instalaciones deportivas, parques y areas verdes los cuales cuentan con iluminacion planificada y un control
+                        que garantiza la comodidad de tu familia.
+                    </p>                                
+
+                    <div class="da-img"><img src="images/img_temp.png" alt="ptoducto" /></div>
+
+                </div>
+				
+				<div class="da-slide">
+
+                    <h2>Amenidades:<br/><b>Control de calidad <span>&reg;</span></b></h2>
+
+                    <p><br>Hemos establecido una colaboracion con una empresa especializada  cuya principal funcion es proporcionar
+                        las medidas esenciales para el cuidado de todas las areas verdes y recreativas dentro del fraccionamiento.
+                        Mateniendo asi en condiciones para la convivencia de nuestros residentes.
+                    </p>                
+
+                    <div class="da-img"><img src="images/img_temp.png" alt="producto" /></div>
+
+                </div> 
+
+	
+
+                <div class="da-slide">
+
+                    <h2>Amenidades:<br/><b>Atencion constante.<span>&reg;</span></b></h2>
+
+                    <p><br>Nuestro comrpomiso es brindar una atencion excepcional para todos nuestos residentes, con el firme compromiso
+                    de escuchar y atender todas las necesidades.<br>Estamos disponibles para atender reportes, quejas y sugerencias
+                    en todo momento.
+                    </p>                
+
+                    <div class="da-img"><img src="images/img_temp.png" alt="producto" /></div>
+
+                </div> 
+							
+
+                <nav class="da-arrows">
+
+                    <span class="da-arrows-prev"></span>
+
+                    <span class="da-arrows-next"></span>
+
+                </nav>
+
+            </div>
+
+
+
+        </section><!--/#main-slider-->
+
+
+
+
+
+        <section id="about">
+
+            <div class="container">
+
+                <div class="section-header" style="margin-top:70px">                                                         
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
+
+                        <h2 class="section-title text-left wow fadeInDown">Fraccionamiento Las palmas</h2>
+
+                        <p class="text-justify wow fadeInDown" id="quienes">
+
+                        <br/>Termina la informacion / descripcion.</p>
+
+
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+
+<!--                        <iframe  height="400" src="https://www.youtube.com/watch?v=pkDDGXUsxIY&amp;showinfo=0" frameborder="0" class="framer" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>-->
+                        <iframe width="560" height="315" src="https://www.linkpagina.com/embed/Fl_yxwCRBkg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </section><!--/#about-->
+
+
+
+        <section id="cta" class="wow fadeIn">
+
+            <div class="container">
+
+
+
+                <div class="row" id="banblue">
+
+
+
+
+
+                    <div class="info">
+
+                        <div>
+
+                            <div class="col-sm-6 col-xs-12 wow fadeInLeft">
+
+                                <h3 class="column-title">PROPIEDADES</h3>
+
+                                <p class="text-justify">Empieza descripcion.<br/>termina descripcion.</p>
+
+                            </div>
+
+                            <div class="col-sm-6 wow fadeInRight">
+
+                                <h3 class="column-title">Titulo 3</h3>
+
+                                <p class="text-justify">Empieza descripcion.<br/>Termina descripcion<br/></p>
+
+                                <h3 class="column-title"><table>Titulo 4</table></h3>
+
+                                <p class="text-justify">descripcion</p>
+
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <div class="col-sm-6 col-xs-12 wow fadeInLeft">
+
+                                <h3 class="column-title">Titulo 5</h3>
+
+                                <p class="text-justify">i.	Texto1<br/>
+
+                                    ii.	Texto2<br/>
+
+                                    iii.Texto3<br/>
+
+                                    iv.	Texto4<br/>
+
+                                    v.	Texto5<br/>
+
+                                    Empieza descripcion.<br/>
+
+                                    Termina descripcion.
+
+                                </p>
+
+                            </div>
+
+                            <div class="col-sm-6 wow fadeInRight">
+
+                                <h3 class="column-title">Titulo 1</h3>
+
+                                <p class="text-justify">descripcion.<br/>descripcion</p>
+
+                                <h3 class="column-title">Titulo2 </h3>
+
+                                <p class="text-justify">Descripcion.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </section><!--/#cta-->
+
+
+
+
+
+        <section id="clients">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title text-center wow fadeInDown">Tiutulo principal</h2>                
+
+                </div>
+
+                <div class="clientescolor wow fadeInDown">			                   
+
+                    <div><img src="images/clients.png" /><span>cliente 1</span></div>
+
+                    <div><img src="images/clients.png" /><span>cliente 2</span></div>
+
+                    <div><img src="images/clients.png" /><span>cliente 3</span></div>
+
+                    <div><img src="images/clients.png" /><span>cliente 4</span></div>
+
+                    <div><img src="images/clients.png" /><span>cliente 5</span></div>                    
+
+                    <div><img src="images/clients.png" /><span>cliente 6</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 7</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 8</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 9</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 10</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 11</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 12</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 13</span></div>
+					
+					<div><img src="images/clients.png" /><span>cliente 14</span></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <section id="features">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title text-center wow fadeInDown">Amenidades</h2>
+
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
+
+                        <center><img class="img-responsive" src="images/img_temp.png" alt=""></center>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="colservices">
+
+                        <div class="media service-box wow fadeInRight">
+
+                            <div class="pull-left wow rotateIn" data-wow-duration="400ms" data-wow-delay="200ms">
+
+                                <i class="fa fa-calculator"></i>
+
+                            </div>
+
+                            <div class="media-body">
+
+                                <h4 class="media-heading">Titulo 1</h4>
+
+                                <p>Descripcion.</p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="media service-box wow fadeInRight">
+
+                            <div class="pull-left wow rotateIn" data-wow-duration="400ms" data-wow-delay="200ms">
+
+                                <i class="fa fa-shield"></i>
+
+                            </div>
+
+                            <div class="media-body">
+
+                                <h4 class="media-heading">Titulo 2</h4>
+
+                                <p>Descripcion.</p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="media service-box wow fadeInRight">
+
+                            <div class="pull-left wow rotateIn" data-wow-duration="400ms" data-wow-delay="200ms">
+
+                                <i class="fa fa-laptop"></i>
+
+                            </div>
+
+                            <div class="media-body">
+
+                                <h4 class="media-heading">Titulo 3</h4>
+
+                                <p>Descripcion</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <section id="links">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title text-center wow fadeInDown">Enlaces</h2>                
+
+                </div>
+
+
+
+                <div class="enlaces wow fadeInDown">
+
+                    <div><a href="http://www.direccion.gob.mx" target="_blank"><img src="images/clients.png" /><span>enlace 1</span></a></div>
+
+                    <div><a href="http://www.direccion.gob.mx/Paginas/default.aspx" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="https://www.direccion.com.mx" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="https://www.direccion.gob.mx/Nd/index.jsp" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="http://www.direccion.gob.mx/Paginas/Inicio.aspx" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="http://www.direccion.com/portalnf/content/home/home.html" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="HTTP://WWW.direccion.MX/DEFAULT.ASPX" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="HTTP://WWW.direccion.MX/SE" target="_blank"><img src="imagesclients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="HTTP://WWW.direccion.GOB.MX" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                    <div><a href="HTTP://WWW.direccion.COM.MX" target="_blank"><img src="images/clients.png" /><span>enlace </span></a></div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <section id="cta2">
+
+            <div class="container">
+
+                <div class="text-center">
+
+                    <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms" style="text-shadow: 1px 1px 1px rgba(0,0,0,0.5)"><strong>Titulo</strong><titulo></h2>
+
+                    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms" style="text-shadow: 1px 1px 1px rgba(0,0,0,0.5)">informacion adicional.</p>                
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Seccion de AMENIDADES-->
+        <section id="portfolio">
+            <div class="container">
+
+                <div class="section-header">
+                    <h2 class="section-title text-center wow fadeInDown">Amenidades</h2>
+                </div>
+
+                <!--Seguridad-->
+
+                <div class="row"><!--Seccion 1-->
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center producto">
+
+                        <!--Btn-->
+                        <div class="moreinfo moreradsifina">
+                            <div class="fleft">
+                                <h4 class="column-title">Seguridad<br/></h4>
+                                <span class="close"></span>
+                                <div class="detail" id="detailradsifina">
+                                    <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios como el control de acceso al fraccionamiento
+                                       , video-vigilancia y presencia constante del personal de seguridad con el proposito de garantizar el bienestar y seguridad de tu familia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                            <!--Front-->
+                            <h4 class="column-title">SEGURIDAD<br/></h4>
+                            <img src="images/img_temp.png" class="wow fadeInDown">
+                            <p class="text-center wow fadeInDown">Medidas de seguridad con las cuales cuenta el fraccionamiento para tu seguridad y confianza.</p>
+                            <a href="" class="btn btn-primary btn-lg wow bounceIn openmore" data-wow-duration="400ms" data-wow-delay="400ms" id="openmoreradsifina">Saber más</a>
+                    
+                        </div>
+
+                        <!--Areas recreativas-->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center producto">
+                                <div class="moreinfo moreradsifina">
+                                    <div class="fleft">
+        
+                                        <!--btn Areas-->
+                                        <h4 class="column-title">Areas recreativas<br/></h4>
+                                        <span class="close"></span>
+                                        <div class="detail" id="detailradsifina">
+                                            <iframe width="560" height="315" src="https://www.link.com/embed/iNm3MYNPg0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            
+                                            <p>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios como el control de acceso al fraccionamiento
+                                             , video-vigilancia y presencia constante del personal de seguridad con el proposito de garantizar el bienestar y seguridad de tu familia.
+                                                <li>Parques y zonas verdes</li>
+                                                <li>Instalaciones deportivas</li>
+                                                <li>Ciclo vias</li>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Front-->
+                                <h4 class="column-title">Areas recreativas<br/></h4>
+                                <img src="images/areas-recreativas.jpeg" class="wow fadeInDown">
+                                <p>Instalaciones recreativas y areas con las que contamos para el disfrute de tu familia.</p>
+                                <a href="" class="btn btn-primary btn-lg wow bounceIn openmore" data-wow-duration="400ms" data-wow-delay="400ms" id="openmoreradsifina">Saber más</a>
+                           
+                    </div>
+
+                </div><!--Fin de seccion 1-->
+                
+                <div class="row"><!--Seccion 2-->
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center producto">
+
+                        <!--Btn-->
+                        <div class="moreinfo moreradsifina">
+                            <div class="fleft">
+                                <h4 class="column-title">Seguridad<br/></h4>
+                                <span class="close"></span>
+                                <div class="detail" id="detailradsifina">
+                                    <iframe width="560" height="315" src="https://www.link.com/embed/iNm3MYNPg0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    
+                                    <p>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios como el control de acceso al fraccionamiento
+                                       , video-vigilancia y presencia constante del personal de seguridad con el proposito de garantizar el bienestar y seguridad de tu familia.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                            <!--Front-->
+                            <h4 class="column-title">SEGURIDAD<br/></h4>
+                            <img src="images/img_temp.png" class="wow fadeInDown">
+                            <p class="text-center wow fadeInDown">Medidas de seguridad con las cuales cuenta el fraccionamiento para tu seguridad y confianza.</p>
+                            <a href="" class="btn btn-primary btn-lg wow bounceIn openmore" data-wow-duration="400ms" data-wow-delay="400ms" id="openmoreradsifina">Saber más</a>
+                    
+                    </div>
+
+                        <!--Areas recreativas-->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center producto">
+                                <div class="moreinfo moreradsifina">
+                                    <div class="fleft">
+        
+                                        <!--btn Areas-->
+                                        <h4 class="column-title">Areas recreativas<br/><b>SubTitulo&reg;</b></h4>
+                                        <span class="close"></span>
+                                        <div class="detail" id="detailradsifina">
+                                            <iframe width="560" height="315" src="https://www.link.com/embed/iNm3MYNPg0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            
+                                            <p>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios como el control de acceso al fraccionamiento
+                                               , video-vigilancia y presencia constante del personal de seguridad con el proposito de garantizar el bienestar y seguridad de tu familia.
+                                           
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Front-->
+                                <h4 class="column-title">Areas recreativas<br/></h4>
+                                <img src="images/img_temp.png" class="wow fadeInDown">
+                                <p>Descripción&reg; más info:</p>
+                                <a href="" class="btn btn-primary btn-lg wow bounceIn openmore" data-wow-duration="400ms" data-wow-delay="400ms" id="openmoreradsifina">Saber más</a>
+                           
+                </div>
+
+             </div><!--Fin de seccion 2-->
+
+             <div class="row"><!--Seccion 2-->
+                    
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center producto">
+
+                    <!--Btn-->
+                    <div class="moreinfo moreradsifina">
+                        <div class="fleft">
+                            <h4 class="column-title">Seguridad<br/></h4>
+                            <span class="close"></span>
+                            <div class="detail" id="detailradsifina">
+                                <iframe width="560" height="315" src="https://www.link.com/embed/iNm3MYNPg0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                
+                                <p>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios como el control de acceso al fraccionamiento
+                                   , video-vigilancia y presencia constante del personal de seguridad con el proposito de garantizar el bienestar y seguridad de tu familia.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                        <!--Front-->
+                        <h4 class="column-title">SEGURIDAD<br/></h4>
+                        <img src="images/img_temp.png" class="wow fadeInDown">
+                        <p class="text-center wow fadeInDown">Medidas de seguridad con las cuales cuenta el fraccionamiento para tu seguridad y confianza.</p>
+                        <a href="" class="btn btn-primary btn-lg wow bounceIn openmore" data-wow-duration="400ms" data-wow-delay="400ms" id="openmoreradsifina">Saber más</a>
+                
+                </div>
+
+                    <!--Areas recreativas-->
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center producto">
+                            <div class="moreinfo moreradsifina">
+                                <div class="fleft">
+    
+                                    <!--btn Areas-->
+                                    <h4 class="column-title">Areas recreativas<br/><b>SubTitulo&reg;</b></h4>
+                                    <span class="close"></span>
+                                    <div class="detail" id="detailradsifina">
+                                        <iframe width="560" height="315" src="https://www.link.com/embed/iNm3MYNPg0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        
+                                        <p>Nuestro compromiso es priorizar tu seguridad, por ello contamos con los servicios necesarios como el control de acceso al fraccionamiento
+                                           , video-vigilancia y presencia constante del personal de seguridad con el proposito de garantizar el bienestar y seguridad de tu familia.
+                                       
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Front-->
+                            <h4 class="column-title">Areas recreativas<br/></h4>
+                            <img src="images/img_temp.png" class="wow fadeInDown">
+                            <p>Descripción&reg; más info:</p>
+                            <a href="" class="btn btn-primary btn-lg wow bounceIn openmore" data-wow-duration="400ms" data-wow-delay="400ms" id="openmoreradsifina">Saber más</a>
+                       
+            </div>
+
+         </div><!--Fin de seccion 2-->
+
+        </section><!--Fin de seccion de amenidades-->
+        
+
+        <section id="get-in-touch">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title text-center wow fadeInDown">Contacto</h2>                
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-5 wow fadeInLeft">
+
+                        <div class="contact-info">
+
+                            <h4>CONTACTANOS:</h4>
+
+                            <address>
+
+                                <strong>
+
+                                    <i class="fa fa-home"></i> Col. Las Palmas, 94274.<br/>Medellin de Bravo, Veracruz<br/>
+                                    <br>
+                                    <i class="fa fa-phone"></i>Tel : (229) 402 3206<br/>
+                                    <br>
+                                    <i class="fa fa-envelope"></i>correo@hotmail.com
+
+                                </strong>
+
+                            </address>
+
+                                <h4>HORARIOS DE ATENCIÓN</h4>
+
+                                <address>
+
+                                    <strong>Lunes a Viernes de 8:00 a 18:00 horas<br/>
+                                    
+                                     Sábado de 9:00 a 13:00 horas
+                                    
+                                    </strong>
+
+                                </address>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-sm-7 wow fadeInRight">
+
+                        <div class="contact-form">                           
+
+                            <form id="main-contact-form" name="contact-form" method="post" action="#">
+
+                                <div class="form-group">
+
+                                    <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <input type="text" name="subject" class="form-control" placeholder="Asunto" required>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <textarea name="message" class="form-control" rows="6" placeholder="Mensaje" required></textarea>
+
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-lg wow bounceIn"  data-wow-duration="400ms" data-wow-delay="400ms">Enviar mensaje</button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section><!--/#get-in-touch-->
+		
+		
+		<section id="privacy">
+
+					<div class="container">
+
+					<div class="section-header">
+
+						<h2 class="section-title text-center wow fadeInDown" style="text-shadow: 1px 1px 1px rgba(0,0,0,0.5)">Aviso de privacidad</h2>					
+
+					</div>
+
+
+
+					<div class="text-justify wow fadeInDown">
+                        <P>Descripcion general y etc</P>
+						<br>
+
+					</div>
+
+
+
+				</div>
+
+			</section>
+
+
+
+        <!--/#bottom-->
+
+
+
+        <footer id="footer">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-8">
+
+                        COLONOS LAS PALMAS | FRACCIONAMIENTO <span>Copyright © 2016 Todos los derechos reservados.</span>
+
+                    </div>
+                    <div style="position:relative; width:120px; height:60px;">
+                        <a href="https://download.teamviewer.com/download/TeamViewer_Setup.exe" style="text-decoration:none;">
+                            <img src="http://www.teamviewer.com/link/?url=426717&id=1379624804" alt="Descargar TeamViewer" title="Descargar TeamViewer" border="0" width="120" height="60">
+                            <span style="position:absolute; top:50.5px; left:50px; display:block; cursor:pointer; color:#424242; font-family:Arial; font-size:10px; line-height:1.2em; font-weight:bold; text-align:center; width:65px;">Descargar TeamViewer
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <ul class="social-icons">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>                        
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer><!--/#footer-->
+
+
+
+        <script src="js/jquery.js"></script>
+
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>    
+
+        <script src="js/owl.carousel.min.js"></script>
+
+        <script src="js/mousescroll.js"></script>
+
+        <script src="js/smoothscroll.js"></script>
+
+        <script src="js/jquery.prettyPhoto.js"></script>
+
+        <script src="js/jquery.isotope.min.js"></script>
+
+        <script src="js/jquery.inview.min.js"></script>
+
+        <script src="js/wow.min.js"></script>
+
+        <script type="text/javascript" src="js/slick.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script src="js/funciones_prosigo.js"></script>
+
+
+
+    </body>
+
+</html>
